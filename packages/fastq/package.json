@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo-laboratory/fastq",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "fastq": "^1.11.1",
+    "nodemailer": "^6.6.3"
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint src/index.ts"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.4"
+  }
+}
